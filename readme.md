@@ -1,4 +1,4 @@
-# Portfólio
+# Portfólio ✨
 
 ## Descrição
 Esse projeto foi realizado para o curso da Blue EdTech módulo III.
