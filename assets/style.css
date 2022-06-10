@@ -26,9 +26,11 @@
     }
 
     #listaImagem{
+        text-align: center;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        width: auto;
     }
 
     .card{
@@ -86,7 +88,6 @@ header nav ul{
 
 body{
     background-color: rgba(228, 194, 228, 0.589);
-    width: 98vw;
 }
 
 #titulo{
@@ -154,14 +155,12 @@ section#sobremim{
 
 #listaImagens{
     display: flex;
-    justify-content: space-evenly; 
-    flex-wrap: wrap; 
-    text-align: center;
-    align-items: center;
-    width: 40rem;
-    max-height: 10rem; 
-    overflow: hidden;
-    /* margin-left: 21rem; */
+    flex-direction: column;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
 }
 
 .imagens{
@@ -181,9 +180,7 @@ section#sobremim{
     max-height: 1000px;  /* mostrar tudo, ativado pelo botao */
   }
 
-  .card-hide.card{
-    display: none;
-  }
+ 
 
   button {
     background: #211564;
