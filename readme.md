@@ -1,9 +1,10 @@
-# Portfólio
+# Portfólio ✨
 
 ## Descrição
 Esse projeto foi realizado para o curso da Blue EdTech módulo III.
 
 ## Link do projeto:
+
 <a href="" target="_blank"><img style="width:10%" src="./public/css/iconplanet.png" alt="ícone de foguete"></a>
 
 ## Stacks
