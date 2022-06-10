@@ -5,7 +5,7 @@ Esse projeto foi realizado para o curso da Blue EdTech módulo III.
 
 ## Link do projeto:
 
-<a href="https://thabatagcampos.github.io/Portfolio/" target="_blank"><img style="width:10%" src="./public/css/iconplanet.png" alt="ícone de foguete"></a>
+<a href="https://thabatagcampos.github.io/Portfolio/" target="_blank"><img style="width:10%" src="./assets/iconplanet.png" alt="ícone de foguete"></a>
 
 ## Stacks
 Ferramentas usadas:
