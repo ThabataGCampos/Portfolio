@@ -67,9 +67,10 @@ header nav ul{
 }
 
 body{
-    background-color: rgba(228, 194, 228, 0.589); 
-    /* background: linear-gradient(#d387e696, #9198e5); */
-    min-height: 100vh;
+    /* background-color: rgba(228, 194, 228, 0.589);  */
+    background: linear-gradient(#d387e696, #9198e5);
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 #titulo{
@@ -123,10 +124,8 @@ section#apresentacao{
 
 #sobremimTx{
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     font-size: 1.2rem;
+    padding: 0 3rem 0 3rem;
 }
 
 #contato{
