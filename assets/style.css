@@ -67,7 +67,9 @@ header nav ul{
 }
 
 body{
-    background-color: rgba(228, 194, 228, 0.589);
+    /* background-color: rgba(228, 194, 228, 0.589); */
+    background: linear-gradient(#d387e696, #9198e5);
+    min-height: 100vh;
 }
 
 #titulo{
@@ -101,7 +103,7 @@ ul#menu a:hover {
     height: 18rem;
 }
 
-section#sobremim{
+section#apresentacao{
     display: flex;
     flex-wrap: wrap;
     word-wrap:break-word;
@@ -109,9 +111,21 @@ section#sobremim{
     align-items: center;
     flex-direction: column;
     color: white;
-    margin-top: 2rem; 
+    margin-top: 3rem; 
     margin-right: 2rem;
     float: right;
+    font-size: 1.2rem;
+}
+
+#sobremim{
+    text-align: center;
+}
+
+#sobremimTx{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-size: 1.2rem;
 }
 
@@ -154,7 +168,7 @@ section#sobremim{
     box-shadow: 5px 5px 5px 2px #00000098;
 }
 
-  button {
+  /* button {
     background: #211564;
     color: #fff;
     padding: 0.6rem;
@@ -167,7 +181,57 @@ section#sobremim{
     cursor: pointer;
     background: purple;
     transition: 0.3s;
+  } */
+
+  /* botao */
+  .default{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
   }
+
+  .default::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(110deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    border-radius: inherit;
+  }
+
+  button:hover {
+    cursor: pointer;
+    transition: 0.3s;
+  } 
+
+.default:hover::before{
+    animation: borderAnimate 0.85s linear infinite;
+}
+
+@keyframes borderAnimate {
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.default button{
+    display: block;
+    background-color: #211564;
+    border-color: #211564;
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 3px;
+    position:relative;
+    z-index: 2;
+}
+/* fim bottao */
 
 #skills{
     text-align: center;
