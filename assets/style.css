@@ -4,30 +4,29 @@
     font-family: Roboto;
 }
 
-@media only screen and (max-width: 600px){
-
-    #menu{
-       padding: 2.5rem 0 0 0;
+ @media only screen and (max-width: 600px){
+    
+    header{
+        flex-wrap: wrap;
     }
-
+    
     ul#menu a {
         font-size: 1rem;
     }
 
+    section#apresentacao{
+        margin-left: 2rem;
+    }
 
     #sobremim{
         align-items: center;
         flex-wrap: wrap;
-        margin-right: 0rem;
-        margin-top: 0rem;
-        margin: 0;
-        color: white;
     }
 
     #titulo{
         text-align: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: .5rem;
     }
 
     #listaImagens{
@@ -39,17 +38,11 @@
 
 @media only screen and (max-width: 340px){
 
-
-    #aprensentacao{
-        flex-direction: row;
-        flex-wrap:nowrap;
-        }
-
     img.imagens{
         width: 70%
     }
+} 
 
-}
    
 header {
     display: flex;
@@ -58,40 +51,36 @@ header {
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav{
     width: 100%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: flex-end
+    justify-content: flex-end;
+    padding-right: 1rem;
 }
 
-header nav ul{
-    display: flex;
-}
 
 body{
-    /* background-color: rgba(228, 194, 228, 0.589);  */
-    background: linear-gradient(#d387e696, #9198e5);
-    /* height: 100vh; */
-    /* width: 100%;  */
+    background: linear-gradient(#d387e696, #8991e6);
 }
 
 #titulo{
     font-size: 1.6rem;
-    margin: 1rem 0 0 1rem;
-    position: fixed;
+    margin-left: 1rem;
 }
 
 ul#menu{
     display: flex;
     list-style: none; /* remover marcadores */
+    gap: 0.5rem;
+    justify-content: space-between;
 }
 
 ul#menu li{
-    padding: 0.7rem; 
     font-size: 1.3rem;
 }
 
@@ -127,7 +116,7 @@ section#apresentacao{
 
 #sobremim{
     text-align: center;
-    color:#09061a;
+    color:#0c0822;
 }
 
 #sobremimTx{
@@ -135,12 +124,12 @@ section#apresentacao{
     font-size: 1.2rem;
     padding: 0 4rem 0 4rem;
     gap: 5rem;
-    color: #09061a;
+    color: #0c0822;
 }
 
 #contato{
     text-align: center;
-    color: #09061a;
+    color: #0c0822;
 }
 
 #listacontatos{
@@ -153,7 +142,7 @@ section#apresentacao{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    color: #09061a;
+    color: #0c0822;
 }
 
 #listaImagens{
@@ -178,21 +167,6 @@ section#apresentacao{
 .imagens:hover{
     box-shadow: 5px 5px 5px 2px #00000098;
 }
-
-  /* button {
-    background: #211564;
-    color: #fff;
-    padding: 0.6rem;
-    margin-top: 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  button:hover {
-    cursor: pointer;
-    background: purple;
-    transition: 0.3s;
-  } */
 
   /* botao */
   #default{
@@ -247,7 +221,7 @@ section#apresentacao{
 #skills{
     text-align: center;
     padding-bottom: 1rem;
-    color:#09061a;
+    color:#0c0822;
 }
 
 footer{
