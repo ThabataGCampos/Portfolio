@@ -43,7 +43,6 @@
     }
 } 
 
-   
 header {
     display: flex;
     width: 100%;
@@ -62,7 +61,6 @@ header nav{
     justify-content: flex-end;
     padding-right: 1rem;
 }
-
 
 body{
     background: linear-gradient(#d387e696, #8991e6);
@@ -116,7 +114,7 @@ section#apresentacao{
 
 #sobremim{
     text-align: center;
-    color:#0c0822;
+    color: #130d36;
 }
 
 #sobremimTx{
@@ -124,12 +122,12 @@ section#apresentacao{
     font-size: 1.2rem;
     padding: 0 4rem 0 4rem;
     gap: 5rem;
-    color: #0c0822;
+    color: #130d36;
 }
 
 #contato{
     text-align: center;
-    color: #0c0822;
+    color: #130d36;
 }
 
 #listacontatos{
@@ -142,7 +140,7 @@ section#apresentacao{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    color: #0c0822;
+    color: #130d36;
 }
 
 #listaImagens{
@@ -221,7 +219,7 @@ section#apresentacao{
 #skills{
     text-align: center;
     padding-bottom: 1rem;
-    color:#0c0822;
+    color:#130d36;
 }
 
 footer{
