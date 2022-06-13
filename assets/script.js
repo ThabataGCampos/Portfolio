@@ -1,4 +1,6 @@
-const button = document.querySelector("#readmore");
+const card = document.querySelector("#card");
+const button = document.querySelector("button");
+
 
  function Mudarestado(el) {
   const display = document.getElementById(el).style.display;
