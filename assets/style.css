@@ -63,7 +63,7 @@ header nav{
 }
 
 body{
-    background: linear-gradient(#d79be596, #d387e696, #8991e6);
+    background: linear-gradient(#d79be5b4, #8991e6d7);
 }
 
 #titulo{
@@ -206,8 +206,8 @@ section#apresentacao{
 
 #default button{
     display: block;
-    background-color: #801f79;
-    border-color: #801f79;
+    background-color: purple;
+    border-color: purple;
     color: #fff;
     padding: 5px 14px;
     border-radius: 3px;
@@ -223,7 +223,7 @@ section#apresentacao{
 }
 
 footer{
-    background-color: #801f79;
+    background-color: purple;
     display: flex;
     align-items: center;
     justify-content: center;
