@@ -74,7 +74,7 @@ body{
 ul#menu{
     display: flex;
     list-style: none; /* remover marcadores */
-    gap: 0.5rem;
+    gap: 0.8rem;
     justify-content: space-between;
 }
 
@@ -95,7 +95,7 @@ ul#menu a:hover {
     background-image: url(./spaceship.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 18rem;
+    height: 20rem;
 }
 
 section#apresentacao{
@@ -109,12 +109,14 @@ section#apresentacao{
     margin-top: 3rem; 
     margin-right: 2rem;
     float: right;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #sobremim{
     text-align: center;
     color: #100f3f;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #sobremimTx{
@@ -128,10 +130,15 @@ section#apresentacao{
 #contato{
     text-align: center;
     color: #100f3f;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #listacontatos{
-    text-align: center;   
+    display: flex;
+    justify-content: center; 
+    gap: 2.5rem;
+    flex-wrap: wrap;
 }
 
 #projetos{
@@ -141,11 +148,14 @@ section#apresentacao{
     align-content: center;
     align-items: center;
     color: #100f3f;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #listaImagens{
     display: flex;
     flex-direction: column;
+   
 }
 
 #card{
@@ -218,8 +228,9 @@ section#apresentacao{
 
 #skills{
     text-align: center;
-    padding-bottom: 1rem;
     color: #100f3f;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 footer{
